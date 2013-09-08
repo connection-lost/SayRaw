@@ -1,0 +1,21 @@
+name: SayRaw
+main: me.crafter.mc.sayraw.SayRaw
+version: 1.0
+description: >
+             No more [server], go raw!
+             
+             
+             
+commands:
+   sayr:
+      permission: say.say
+      usage: |
+         /sayr <name>
+   sayraw:
+      permission: say.say
+      usage: |
+         /sayraw <name>
+   sayspam:
+      permission: say.spam
+      usage: |
+         /sayspam <name>
